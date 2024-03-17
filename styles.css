@@ -1,0 +1,77 @@
+h1 {
+    color:coral;
+}
+
+p {
+    color:cornflowerblue;
+}
+
+a:link {
+    color: red;
+  }
+  
+  a:visited {
+    color: green;
+  }
+
+    a:hover {
+        text-decoration: none;
+        background: #cdfeaa;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  h1 {
+    text-shadow: 3px 3px 3px black;
+  }
+
+  html {
+    text-align:left;
+  }
+
+  body,
+html {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  gap: 0.625%;
+}
+
+a {
+  flex: 0.2;
+  text-decoration: none;
+  outline: none;
+  text-align: center;
+  line-height: 3;
+  color: black;
+}
+
+a[href^="https://playentry.org/profile"] {
+  font-size: 20px;
+  background: palegoldenrod;
+  color: black;
+  border-radius: 30px;
+  
+}
+
+a:hover {
+  background: #cdfeaa;
+}
+
+a:active {
+  background: darkred;
+  color: white;
+}
+
+html {
+  background-color:black;
+}
